@@ -61,10 +61,13 @@ class MainWindow(QMainWindow):
         self.update_timer.timeout.connect(self.update)
 
     def update(self):
-        r = random.choice(quotes)
-        quotes.remove(r)
-        s = "“"+"".join(r)+"”"
-        self.widget.setText(s.upper())
+        try:
+            r = random.choice(quotes)
+            quotes.remove(r)
+            s = "“"+"".join(r)+"”"
+            self.widget.setText(s.upper())
+        except Exception as e:
+            sys.exit()
 
 app = QApplication(sys.argv)
 w = MainWindow()
