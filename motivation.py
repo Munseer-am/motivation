@@ -19,7 +19,7 @@ quotes = [
     "Think Big. Trust Yourself And Make It Happen",
     "A negative mind will never give you a positive life",
     "study hard play hard and be smart",
-    "focus on the outcome not the obstacle"
+    "focus on the outcome not the obstacle",
     "you need to know what to do when the sun is not shining - RDJ",
     "just because you hit bottom, it doesn't mean that you have to stay there - RDJ",
     "You only fail when you stop trying",
