@@ -24,7 +24,7 @@ quotes = [
     "just because you hit bottom, it doesn't mean that you have to stay there - RDJ",
     "You only fail when you stop trying",
     "good thing take time",
-    "a smooth sea never made a skiller sailor",
+    "a smooth sea never made a skilled sailor",
     "the best fighter is never angry",
     "understand the results of your action",
     "train your mind to stay calm in every situation",
