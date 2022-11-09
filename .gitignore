@@ -1,2 +1,4 @@
 binary
 read_img.py
+.idea/
+__pycache__/

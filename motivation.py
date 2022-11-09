@@ -13,9 +13,7 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("Motivation Quotes")
         self.setWindowIcon(QIcon('1250593.png'))
         r = random.choice(quotes).upper()
-        # quotes.remove(r)
         self.widget = QLabel("“" + "".join(r) + "”".upper())
-        # widget = QLabel(quotes[0])
         font = self.widget.font()
         font.setPointSize(30)
         self.widget.setFont(font)
@@ -26,12 +24,11 @@ class MainWindow(QMainWindow):
         self.widget.adjustSize()
         self.widget.setWordWrap(True)
         self.update_timer = QTimer()
-        # self.update_timer.setInterval(20)
         self.update_timer.setSingleShot(False)
         self.update_timer.start(10000)
-        self.update_timer.timeout.connect(self.update)
+        self.update_timer.timeout.connect(self.new_quote)
 
-    def update(self):
+    def new_quote(self):
         try:
             r = random.choice(quotes)
             quotes.remove(r)

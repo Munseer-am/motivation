@@ -15,7 +15,7 @@ quotes = [
     "you need to know what to do when the sun is not shining - RDJ",
     "just because you hit bottom, it doesn't mean that you have to stay there - RDJ",
     "You only fail when you stop trying",
-    "good thing take time",
+    "good things take time",
     "a smooth sea never made a skilled sailor",
     "the best fighter is never angry",
     "understand the results of your action",
@@ -26,4 +26,8 @@ quotes = [
     "if there is no way create one",
     "happiness comes in wave it will find you again",
     "it nice to be important, but its important to be nice",
+    "Everything is gonna workout exactly the way its suppose to",
+    "Sometimes you gotta run before you can walk",
+    "If there is no enemy within, the enemy outside can do us no harm",
+    "Your greatest enemy is you",
 ]
