@@ -10,7 +10,7 @@ from PyQt5.QtCore import *
 class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
-        self.setWindowTitle("Motivation Quotes")
+        self.setWindowTitle("Motivational Quotes")
         self.setWindowIcon(QIcon('1250593.png'))
         r = random.choice(quotes).upper()
         self.widget = QLabel("“" + "".join(r) + "”".upper())
