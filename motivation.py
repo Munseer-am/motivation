@@ -11,7 +11,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
         self.setWindowTitle("Motivational Quotes")
-        self.setWindowIcon(QIcon('1250593.png'))
+        self.setWindowIcon(QIcon('logo.jpg'))
         r = random.choice(quotes).upper()
         self.widget = QLabel("“" + "".join(r) + "”".upper())
         font = self.widget.font()
